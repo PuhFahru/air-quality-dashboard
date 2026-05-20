@@ -26,3 +26,6 @@ env/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Submission ZIP
+projectdataanalisis.zip
