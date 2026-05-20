@@ -54,7 +54,7 @@ st.markdown("""
 def load_data():
     """Load and prepare the cleaned air quality data"""
     try:
-        df = pd.read_csv('main_data.csv')
+        df = pd.read_csv(os.path.join(os.path.dirname(__file__), 'main_data.csv'))
         df['datetime'] = pd.to_datetime(df['datetime'])
         return df
     except FileNotFoundError:
