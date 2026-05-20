@@ -291,7 +291,7 @@ if df is not None:
         plt.tight_layout()
         st.pyplot(fig7)
 
-    with tab5:
+    with tab4:
         st.subheader("Analisis Lanjutan: AQI & Seasonal")
 
         # AQI Category Distribution
@@ -418,7 +418,7 @@ if df is not None:
         plt.tight_layout()
         st.pyplot(fig_temp)
 
-    with tab4:
+    with tab5:
         st.subheader("Ringkasan Statistik per Stasiun")
 
         # Summary table
