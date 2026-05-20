@@ -1,0 +1,28 @@
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Temporary scripts
+fix_*.py
+run_analysis.py
+*.pyc
+__pycache__/
+
+# Large data files (already processed)
+# Keep these for dashboard:
+# cleaned_air_quality_data.csv
+# station_summary_stats.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
