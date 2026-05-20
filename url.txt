@@ -1,0 +1,9 @@
+# Streamlit Cloud Deployment URL
+# Deploy dashboard to Streamlit Cloud and paste the URL here
+# Example: https://your-app-name.streamlit.app
+
+# For now, run locally with:
+# cd dashboard
+# streamlit run dashboard.py
+
+Local deployment only - run with streamlit run dashboard.py
